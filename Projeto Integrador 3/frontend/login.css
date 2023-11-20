@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/*----------HEADER---------------*/
+
+a {
+  text-decoration: none;
+  color: #1c1c1c;
+}
+li {
+  list-style: none;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 12.5%;
+  padding-top: 0.5rem;
+}
+
+.centro {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.right {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  color: #1c1c1c;
+}
+.registrar {
+  background: #fff;
+  border: 0.5rem solid #fff;
+  display: inline-block;
+  border-radius: 1.5rem;
+}
+/*
+header h2 {
+  margin-top: 1rem;
+} */
+header h2 strong {
+  color: #4bcc8e;
+  font-weight: 1.2rem;
+}
+
+.login {
+  background: #4bcc8e;
+  border: 0.5rem solid #4bcc8e;
+  display: inline-block;
+  border-radius: 1.5rem;
+}
+
+/*-----------MAIN----------------*/
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #023047;
+}
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #ebf5e6;
+}
+
+.formLogin {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 7px;
+  padding: 40px;
+  box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
+  gap: 5px;
+}
+.areaLogin img {
+  width: 420px;
+}
+
+.formLogin h1 {
+  padding: 0;
+  margin: 0;
+  font-weight: 500;
+  font-size: 2.3em;
+}
+
+.formLogin p {
+  display: inline-block;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.formLogin input {
+  padding: 15px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  border-radius: 4px;
+  transition: all linear 160ms;
+  outline: none;
+}
+
+.formLogin input:focus {
+  border: 1px solid #4bcc8e;
+}
+
+.formLogin label {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.formLogin a {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 13px;
+  color: #555;
+  transition: all linear 160ms;
+}
+
+.formLogin a:hover {
+  color: #4bcc8e;
+}
+
+.btn {
+  background-color: #4bcc8e;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  border: none !important;
+  transition: all linear 160ms;
+  cursor: pointer;
+  margin: 0 !important;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  background-color: #4bcc8e;
+}
